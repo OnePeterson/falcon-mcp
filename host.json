@@ -4,7 +4,12 @@
   "customHandler": {
     "description": {
       "defaultExecutablePath": "python",
-      "arguments": ["-m", "falcon_mcp"]
+      "arguments": [
+        "-m", "falcon_mcp",
+        "--transport", "streamable-http",
+        "--host", "0.0.0.0",
+        "--port", "8000"
+      ]
     },
     "port": "8000"
   }
