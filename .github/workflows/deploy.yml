@@ -1,4 +1,4 @@
-yamlname: Deploy Falcon MCP to Azure Functions
+name: Deploy Falcon MCP to Azure Functions
 
 on:
   push:
