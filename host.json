@@ -1,0 +1,11 @@
+{
+  "version": "2.0",
+  "configurationProfile": "mcp-custom-handler",
+  "customHandler": {
+    "description": {
+      "defaultExecutablePath": "python",
+      "arguments": ["-m", "falcon_mcp"]
+    },
+    "port": "8000"
+  }
+}
