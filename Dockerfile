@@ -56,3 +56,4 @@ COPY --from=builder --chown=app:app /app/.venv /app/.venv
 ENV PATH="/app/.venv/bin:$PATH"
 
 ENTRYPOINT ["falcon-mcp"]
+CMD ["--transport", "streamable-http", "--host", "0.0.0.0", "--port", "8000"]
